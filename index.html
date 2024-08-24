@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>You've Been Sent a Message</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            background: linear-gradient(to right, #ff6f61, #d83a56);
+            color: #f9f9f9;
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+        .container {
+            max-width: 800px;
+            background: rgba(0, 0, 0, 0.7);
+            border-radius: 15px;
+            padding: 40px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+            animation: fadeIn 2s ease-out;
+            backdrop-filter: blur(10px);
+        }
+        h1 {
+            color: #f8c9c0;
+            font-size: 3rem;
+            margin-bottom: 20px;
+            text-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+        }
+        p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+            margin: 15px 0;
+        }
+        .highlight {
+            color: #ffcc00;
+            font-weight: bold;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            border-bottom: 2px solid #ffcc00;
+        }
+        .footer {
+            margin-top: 30px;
+            font-size: 1rem;
+            color: #ddd;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(50px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Welcome to a Surprising Revelation</h1>
+        <p>You've been directed here for a reason that might seem both intriguing and unconventional. This page is not your usual web content; it's a creative expression meant to catch you off guard and make you smile, perhaps even laugh. Why? Because someone thought it would be both amusing and memorable to convey a very particular message to you.</p>
+        <p>What exactly is this message? It is, in its essence, a bold declaration that combines a touch of irreverence with a dash of humor. Here's the key phrase you were meant to see:</p>
+        <p class="highlight">"Fuck you."</p>
+</body>
+</html>
